@@ -9,15 +9,14 @@ if (danishPrice < money) {
 
 else if (butterBread < money) {
     console.log("Butterbon Khabo")
-
 }
+
 else if (toastBiscuite < money) {
     console.log("Toast Khabo")
-
 }
+
 else {
     console.log("Cha Khabo")
-
 }
 
 
