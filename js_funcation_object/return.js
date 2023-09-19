@@ -5,7 +5,7 @@ function add(num1, num2) {
 }
 
 var total = add(40, 60);
-console.log('Toat= ', total);
+console.log('Total= ', total);
 
 
 function bringSingara(money) {

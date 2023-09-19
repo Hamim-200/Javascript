@@ -1,15 +1,15 @@
-// function bringSingara(money) {
-//     console.log('ai j taka :', money);
-//     console.log('Singara den quick');
+function bringSingara(money) {
+    console.log('ai nen taka :', money);
+    console.log('Singara den quick');
 
-// }
-// bringSingara(100);
-
-
-function add(num1, num2) {
-    console.log('Here :', num1, '+', num2);
-    var sum = num1 + num2;
-    console.log(sum);
 }
+bringSingara(100);
 
-add(10, 34);
+
+// function add(num1, num2) {
+//     console.log('Here :', num1, '+', num2);
+//     var sum = num1 + num2;
+//     console.log(sum);
+// }
+
+// add(10, 34);

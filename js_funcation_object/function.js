@@ -6,4 +6,5 @@ function startFan() {
     console.log('Press Switch');
 }
 
+//Function Call
 startFan();
