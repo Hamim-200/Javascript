@@ -18,5 +18,5 @@ console.log(values);
 
 for (var propertyName in shoppingCart) {
     const value = shoppingCart[propertyName];
-    console.log(propertyName, value);
+    console.log(propertyName,'-', value);
 }

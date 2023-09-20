@@ -6,5 +6,7 @@ var myComputer = {
 
 }
 console.log(myComputer.processor);
+
+//set value 
 myComputer.price = 70000;
 console.log(myComputer)
