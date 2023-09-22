@@ -1,3 +1,5 @@
+//VAR vs LES
+
 let age = 11;
 age = 12;
 
