@@ -9,8 +9,6 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
 
     const totalWood = chairWood + tableWood + bedWood;
     return totalWood;
-
-
 }
 
 const totalWood = woodCalculator(2, 2, 5);
