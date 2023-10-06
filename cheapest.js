@@ -7,17 +7,17 @@ const phones = [
     { name: 'asus', camera: 12, storage: '32gb', price: 12000, color: 'silver' }
 ]
 
-function cheapestPhone(phones) {
+function cheapestPhone(phones){
     let cheapest = phones[0];
-    for (let i = 0; i < phones.length; i++) {
+
+    for (let i =0; i<phones.length;i++){
         const phone = phones[i];
-        if (phone.price < cheapest.price) {
+
+        if(phone.price < cheapest.price){
             cheapest = phone;
         }
     }
     return cheapest;
-
 }
-
 const mySelection = cheapestPhone(phones);
 console.log(mySelection);

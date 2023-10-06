@@ -5,16 +5,14 @@ const shoppingCart = [
     { name: 'Belt', price: 1200, quantity: 6 }
 ];
 
-function totalCost(products) {
-    let sum = 0;
-    for (let i = 0; i < products.length; i++) {
+
+function totalCost(products){
+    let sum =0 ;
+    for (let i =0 ; i<products.length;i++){
         const product = products[i];
-        const productTotal = product.price * product.quantity;
-        sum = sum + productTotal;
-        // console.log(product);
+        sum = sum + product.price;
     }
     return sum;
 }
-
 const expense = totalCost(shoppingCart);
-console.log('Total Expense :', expense);
+console.log('Total expense:',expense);
